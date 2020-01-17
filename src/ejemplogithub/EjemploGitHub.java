@@ -5,6 +5,8 @@
  */
 package ejemplogithub;
 
+import java.util.Scanner;
+
 /**
  *
  * @author ITP1DAM
@@ -16,6 +18,12 @@ public class EjemploGitHub {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner ti = new Scanner(System.in);
+        System.out.println("dame un numero");
+        int numero = ti.nextInt();
+        
+        System.out.println(numero);
+        
     }
     
 }
